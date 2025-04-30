@@ -1,0 +1,43 @@
+.check {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: #6f6f6f;
+}
+
+.thankyou-enclose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thanku-txt-wrapper {
+    justify-self: center;
+}
+.thankyou-subtxt {
+    /* max-width: 75%; */
+    font-size: 25px;
+    font-weight: 500;
+}
+.thankyou-text {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+@media (max-width:767px){
+    .container.thanku-txt-wrapper {
+        max-width: 100%;
+    }
+    .thankyou-enclose.py-10.px-10 {
+        padding: 20px 10px;
+    }
+    .items-center.text-center.thankyou-subtxt {
+        font-size: 15px;
+    }
+    .thankyou-text {
+        font-size: 40px;
+    }
+}

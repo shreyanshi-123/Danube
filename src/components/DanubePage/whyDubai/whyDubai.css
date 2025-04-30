@@ -1,0 +1,12 @@
+.home-whyDubai 
+ img.w-16.animate-wobble {
+    filter: brightness(1);
+}
+/* @media (min-width:767px){
+.py-20 {
+    padding: 80px 0px;
+}} */
+
+.whyDubai,.whyDanube {
+    overflow-wrap: anywhere;
+}

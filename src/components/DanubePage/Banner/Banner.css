@@ -1,0 +1,52 @@
+.banner-txt {
+  margin-right: 0px;
+}
+
+@media (min-width:1024px) {
+  .home-banner-danube {
+    min-height: 980px;
+  }
+
+}
+
+.bg-banner-txt {
+
+
+  position: relative;
+}
+
+.bg-banner-txt::after {
+  content: "";
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 72%;
+  background: rgb(217, 217, 217, 0.73);
+  z-index: -1;
+}
+
+.bg-banner-txt {
+  width: 541px;
+  min-height: 305px;
+  justify-content: center;
+}
+
+@media (max-width:639px) {
+
+  .bg-banner-txt {
+    min-height: 300px;
+    width: 370px;
+  }
+}
+
+@media (max-width:420px) {
+  .bg-banner-txt {
+    width: 100%;
+  }
+
+  .parent-text {
+    margin-right: 0px;
+  }
+}

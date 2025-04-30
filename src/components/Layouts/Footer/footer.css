@@ -1,0 +1,42 @@
+.danube-footer{
+    background-image: url(../../../assests/images/DanubeProperties/denube-footer-bg-1.png);
+    position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+}
+.danube-footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1B1714; /* Black color with 50% opacity */
+    z-index: 1;
+    opacity: 80%;
+}
+.footer-logo {
+    height: 60px;
+    width: 185px;
+}
+
+.social-icons {
+    height: 44px;
+    width: 44px;
+}
+li.denube-link {
+    height: 44px;
+    width: 44px;
+}
+li.denube-link svg {
+    width: 22px;
+    height: 22px;
+}
+@media (max-width: 350px){
+p.flex.gap-2.mt-1\.5.text-\[16px\].text-white {
+    display: block;
+}}
+li.denube-link.social:hover svg {
+    color: black;
+}

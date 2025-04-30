@@ -1,0 +1,29 @@
+.about-item:hover img {
+    filter: invert(1);
+}
+
+.about-item:hover h3 {
+    color: #fff;
+}
+
+
+
+@media (max-width:639px) {
+    /* .main-abt {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    } */
+}
+
+@media (max-width:400px) {
+   
+
+    .main-abt {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

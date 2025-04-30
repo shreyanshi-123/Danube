@@ -1,0 +1,17 @@
+section.home-featuredProjects .slick-dots li button::before {
+    color: #d9d9d9;
+    opacity: 1;
+}
+section.home-featuredProjects .slick-dots li.slick-active button:before{
+    color: #936B47!important;
+}
+section.home-featuredProjects .slick-dots {
+    bottom: -30px;
+}
+.w-fit{
+   width: fit-content;
+}
+
+.slick-dots li{
+    margin: 0px 2px!important;
+}

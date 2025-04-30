@@ -1,0 +1,148 @@
+{
+    "welcome": "Bienvenue",
+    "change_language": "Changer de langue",
+    "navigation": {
+        "about_us": "À PROPOS DE NOUS",
+        "latest_launch": "DERNIÈRE LANCEMENT",
+        "projects": "PROJETS",
+        "danube_properties": "DANUBE PROPRIÉTÉS",
+        "invest_in_dubai": "INVESTIR À DUBAÏ",
+        "contact_us": "CONTACTEZ-NOUS"
+    },
+    "language_switcher": {
+        "welcome": "Bienvenue",
+        "change_language": "Changer de langue",
+        "english": "Anglais",
+        "arabic": "Arabe",
+        "francais": "Français"
+    },
+    "download_brochure": "TÉLÉCHARGER LA BROCHURE",
+    "hero_section": {
+        "heading": "Vivez au cœur de Dubaï -",
+        "headingLine2": "Appartements de luxe en bord de mer",
+        "subheading_1": "Appartement de luxe 1 & 2 chambres",
+        "subheading_2": "Appartements en bord de mer"
+    },
+    "about_us": "Danube Properties est la branche de développement immobilier du célèbre Danube Group, un conglomérat d'entreprises diversifié fondé en 1993 et ​​basé à Dubaï, aux Émirats arabes unis. Figurant parmi les promoteurs privés les plus fiables et les plus dynamiques de la région, Danube Properties s'est taillé une place de choix en proposant des logements de luxe à des prix abordables, redéfinissant ainsi le marché immobilier de valeur dans le paysage immobilier concurrentiel de Dubaï.",
+    "award_winning_architecture": "Architecture primée",
+    "prime_locations": "Emplacements privilégiés à travers Dubaï",
+    "flexible_payment_plans": "Plans de paiement flexibles",
+    "strong_roi": "Fort retour sur investissement et potentiel de croissance du capital",
+    "world_class_amenities": "Installations de classe mondiale",
+    "latest_launches": {
+        "title_main": "Derniers lancements",
+        "title": "TIMEZ PAR DANUBE",
+        "tagline": "IL EST TEMPS DE POSSEDER VOTRE MAISON DE RÊVE",
+        "register_interest": "ENREGISTRER L'INTÉRÊT"
+    },
+    "featured_area": {
+        "exterior": "Extérieur",
+        "bedroom": "Chambre",
+        "living_room": "Salon",
+        "lobby": "Hall",
+        "pool": "Piscine"
+    },
+    "feature_project": {
+        "featured": "EN VEDETTE",
+        "projects": "PROJETS",
+        "where_idea_turned": "Là où les idées deviennent réalité",
+        "Bays102_by_Danube": "BAYZ102 PAR DANUBE",
+        "your_home_in_the_sky": "VOTRE MAISON DANS LE CIEL",
+        "Oasiz_by_danube": "OASIZ PAR DANUBE",
+        "Affordable_luxary_home": "MAISON DE LUXE ABORDABLE",
+        "diamonds_by_danube": "DIAMONDZ PAR DANUBE",
+        "where_every_home_sparkels": "LÀ OÙ CHAQUE MAISON BRILLE",
+        "Bays_101_by_danube": "BAYZ101 PAR DANUBE",
+        "levels_of_luxary_line1": "101 NIVEAUX DE LUXE",
+        "levels_of_luxary_line2": "À BUSINESS BAY, DUBAÏ",
+        "sportz_by_danube": "SPORTZ PAR DANUBE",
+        "come_home_to_play_line1": "RENTREZ À LA MAISON POUR JOUER",
+        "come_home_to_play_line2": "L'ESTHÉTIQUE RENCONTRE L'ATHLÉTISME",
+        "Oceanz_by_danube": "OCEANZ PAR DANUBE",
+        "wake_up_to_this": "RÉVEILLEZ-VOUS AVEC CETTE VUE CHAQUE JOUR"
+    },
+    "why": "pourquoi",
+    "danube_properties": "PROPRIÉTÉS DU DANUBE",
+    "invest_in_dubai": "INVESTIR À DUBAÏ",
+    "why_danube_properties": {
+        "feature1": "intérêt",
+        "feature2": "PAR MOIS",
+        "feature3": "PLAN DE PAIEMENT SUR 80 MOIS",
+        "feature4": "Retour sur investissement élevé",
+        "feature5": "Livraison dans les délais",
+        "feature6": "Emplacements privilégiés à travers Dubaï",
+        "feature7": "Meubles de luxe",
+        "feature8": "40+ Installations"
+    },
+    "why_invest_in_dubai": {
+        "safest_city": "Ville la plus sûre du monde",
+        "fastest_growing_economy": "Économie à la croissance la plus rapide",
+        "high_capital_appreciation": "Haute appréciation du capital",
+        "ease_of_investment": "Facilité d'investissement",
+        "freehold_ownership": "Propriété en pleine propriété",
+        "tax_free_income": "Revenu exonéré d'impôts à 100%",
+        "long_term_golden_visa": "Visa doré à long terme",
+        "worldwide_connectivity": "Connectivité mondiale"
+    },
+    "about_rizwan_sajan": {
+        "title": "À PROPOS DE ",
+        "name": "RIZWAN SAJAN",
+        "position": "FONDATEUR ET PRÉSIDENT DU GROUPE DANUBE",
+        "line_1": "Rizwan Sajan est un entrepreneur visionnaire et le fondateur du groupe Danube, l'un des conglomérats diversifiés les plus importants des Émirats. Fondé en 1993, le groupe Danube est devenu une entreprise de plusieurs milliards de dollars avec des opérations dans plus de 50 pays et une main-d'œuvre de plus de 3300 employés.",
+        "watch_complete_story": "REGARDER L'HISTOIRE COMPLÈTE"
+    },
+    "get_in_touch": "ENTRER EN CONTACT",
+    "first_name": "PRÉNOM*",
+    "last_name": "NOM DE FAMILLE*",
+    "email": "EMAIL (Optionnel)",
+    "mobile_number": "NUMÉRO DE TÉLÉPHONE MOBILE*",
+    "message": "MESSAGE",
+    "privacy_disclaimer": {
+        "line_1": "Avis de non-responsabilité : Danube Properties respecte votre vie privée et utilisera vos coordonnées uniquement pour vous contacter au sujet de nos produits et services. En cliquant sur « Envoyer », vous acceptez que nos agents commerciaux vous contactent par téléphone, e-mail et WhatsApp. Vous avez le droit de vous désinscrire de ces communications à tout moment. Pour plus d'informations, veuillez consulter notre Politique de confidentialité."
+    },
+    "Submit": "Soumettre",
+    "faq": "FAQ",
+    "popupForm": "En soumettant, vous acceptez de recevoir des nouvelles de notre équipe par appel, e-mail ou WhatsApp, uniquement sur les bonnes affaires et les mises à jour de la propriété.",
+    "faqs": {
+        "real_estate_developer": "Développeur immobilier à Dubaï",
+        "why_choose_danube_properties": "Pourquoi choisir Danube Properties ?",
+        "trusted_name_in_real_estate": "Un nom de confiance dans l'immobilier",
+        "investment_opportunities": "Opportunités d'investissement à Dubaï",
+        "impressive_portfolio": "Portefeuille impressionnant de Danube Properties"
+    },
+    "popupTitle": "Liste de prix de DANUBE PROPERTIES !",
+    "discover_dream_home": "Découvrez votre maison de rêve dans ce projet résidentiel exceptionnel à Dubaï aujourd'hui, et faites le premier pas vers une vie de confort, de commodité et de sérénité.",
+    "useful_links": {
+        "usefulLinks": "Liens utiles",
+        "about_us": "À propos de nous",
+        "why_danube_properties": "Pourquoi choisir Danube Properties",
+        "latest_launch": "Dernière lancement",
+        "why_invest_in_dubai": "Pourquoi investir à Dubaï",
+        "feature_projects": "Projets vedettes",
+        "faqs": "FAQ",
+        "contact_us": "Contactez-nous"
+    },
+    "follow_us": "Suivez-nous sur :-",
+    "DisclaimerHead": "Clause de non-responsabilité:",
+    "disclaimer": {
+        "line_1": "Les images présentées sont uniquement à des fins d'illustration et peuvent ne pas être une représentation exacte du produit.",
+        "line_2": "Veuillez noter que ce site web n'est pas un site officiel et sert uniquement de portail d'information géré par un agent immobilier agréé RERA. Il ne constitue ni une offre ni une garantie de services. Les prix affichés sur ce site sont susceptibles d'être modifiés sans préavis et la disponibilité des biens ne peut être garantie. Les images présentées sur ce site sont fournies à titre indicatif uniquement et peuvent ne pas refléter fidèlement les biens réels. Nous sommes susceptibles de partager vos données avec des promoteurs agréés par la Real Estate Regulatory Authority (RERA) pour traitement ultérieur si nécessaire. De plus, nous pouvons envoyer des mises à jour et des informations au numéro de téléphone portable ou à l'adresse e-mail que nous avons enregistrés. Tous droits réservés. Le contenu, la conception et les informations de ce site web sont protégés par le droit d'auteur et d'autres droits de propriété intellectuelle. Toute utilisation ou reproduction non autorisée du contenu peut constituer une violation des lois applicables. Pour obtenir des informations précises et à jour concernant les services, les tarifs, la disponibilité et tout autre détail, nous vous recommandons de nous contacter directement aux coordonnées fournies sur ce site. Merci de votre visite.",
+        "line_3": "Nous sommes le partenaire agréé du Groupe Denube. Tous droits sur le logo et les images réservés au développeur."
+    },
+    "terms_and_conditions": "Terms & Conditions",
+    "and": "and",
+    "Privacy_policy": "Privacy Policy",
+    "crafted_by": "Crafted By:",
+    "The": "le",
+    "Man": "homme",
+    "faqAns1": "Vous recherchez un logement de luxe auprès d'un promoteur immobilier de premier plan à Dubaï ? Dans un marché immobilier en constante évolution, choisir le bon partenaire pour votre investissement est primordial. Figurant parmi les trois premiers promoteurs immobiliers de Dubaï, Danube Properties est un modèle de confiance, de qualité et d'innovation. Fondée en 1993 par M. Rizwan Sajan, Danube Properties est devenue un acteur majeur du secteur immobilier aux Émirats arabes unis, proposant une gamme diversifiée de biens à vendre à Dubaï, répondant aux besoins de sa clientèle internationale. Spécialisée dans les résidences, les espaces commerciaux, les programmes à usage mixte et les propriétés de luxe haut de gamme, Danube Properties répond à un large éventail de besoins et de préférences.",
+    "faqAns2": "Choisir un promoteur immobilier à Dubaï ne se résume pas à une simple décision financière ; il s'agit de trouver une entreprise qui correspond à votre vision et à vos objectifs. Danube Properties s'est forgé une solide réputation en livrant des projets de haute qualité dans les délais impartis, garantissant ainsi la sécurité et la rentabilité de votre investissement. Forte de plus de trente ans d'expérience dans le secteur, l'entreprise a toujours su répondre aux attentes de ses clients grâce à une qualité exceptionnelle et à des emplacements de choix. ",
+    "faqAns2Para2": "Danube Properties est particulièrement connu pour avoir été le pionnier du plan de paiement mensuel à 1 % avec 0 % d'intérêt et jusqu'à 80 mois de remboursement, rendant ainsi l'accession à la propriété haut de gamme accessible à un public plus large. Cette approche, combinée à plus de 40 équipements de classe mondiale proposés dans ses programmes, positionne Danube comme un leader dans la fourniture de biens immobiliers, mais aussi d'un style de vie complet. De plus, une large gamme d'options s'adapte à tous les goûts et budgets, garantissant un retour sur investissement élevé. Danube Properties propose un nouveau niveau de vie avec des maisons spacieuses et entièrement meublées, conçues pour un style de vie moderne. Ces maisons modernes sont dotées de matériaux et d'intérieurs raffinés, alliant luxe et confort.",
+    "faqAns3": "Danube Properties se distingue non seulement par ses projets immobiliers exceptionnels, mais aussi par son approche centrée sur le client. La philosophie de l'entreprise est axée sur la création de valeur par la qualité et l'établissement de relations durables avec ses clients.",
+    "faqAns4": "Le marché immobilier de Dubaï est en plein essor, et les propriétés à vendre attirent des investisseurs du monde entier. Le dynamisme économique et le style de vie attrayant de la ville en font une destination de choix pour l'investissement immobilier. Que vous recherchiez une résidence, un local commercial ou un bien de luxe, investissez dès aujourd'hui avec Danube Properties.",
+    "faqAns5": "Danube Properties a lancé 32 projets, dont 16 ont été livrés avec succès, et 16 autres sont actuellement à divers stades de construction. Chaque projet se distingue par une qualité de construction exceptionnelle, des équipements de pointe et des finitions intérieures haut de gamme. Parmi ces projets figurent Pearlz, Jewelz, Wavez, Eleganz, Olivz, Elz, Lawnz, Bayz, Miraclz, Resortz, Glamz, Starz, Glitz 3, Glitz 2, Glitz 1 et Dreamz.",
+    "faqAns5Para2": "Les projets de Danube Properties sont conçus pour offrir une gamme de biens allant de l'abordable au luxe haut de gamme, suscitant un intérêt considérable auprès d'une clientèle diversifiée. Depuis leur création, les projets de Danube Properties ont connu un succès remarquable. La combinaison de plans de paiement attractifs, d'emplacements stratégiques et d'une gamme d'équipements modernes a rendu leurs propriétés très prisées. Danube Properties affiche actuellement une valeur comptable impressionnante, avec des constructions s'étendant sur plus de 25,5 millions de pieds carrés. Leurs projets continuent d'établir de nouvelles normes sur le marché immobilier, offrant une valeur et une qualité exceptionnelles à leurs clients.",
+    "ar": "AR",
+    "fr": "FR",
+    "en": "EN"
+}

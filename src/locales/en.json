@@ -1,0 +1,148 @@
+{
+    "welcome": "welcome",
+    "change_language": "change language",
+    "navigation": {
+        "about_us": "About Us",
+        "latest_launch": "LATEST LAUNCH",
+        "projects": "PROJECTS",
+        "danube_properties": "DANUBE PROPERTIES",
+        "invest_in_dubai": "INVEST IN DUBAI",
+        "contact_us": "CONTACT US"
+    },
+    "language_switcher": {
+        "welcome": "welcome",
+        "change_language": "change language",
+        "english": "English",
+        "arabic": "Arabic",
+        "francais": "Français"
+    },
+    "download_brochure": "DOWNLOAD BROCHURE",
+    "popupForm": "By submitting, you agree to hear from our team via call, email, or WhatsApp — only about great deals and property updates.",
+    "hero_section": {
+        "heading": "Live in the Heart of Dubai - ",
+        "headingLine2": "Luxury Waterfront Apartments",
+        "subheading_1": "Luxury 1 & 2- BR Apartment",
+        "subheading_2": "Waterfront Apartments"
+    },
+    "about_us": "Danube Properties is the real estate development arm of the renowned Danube Group, a diversified business conglomerate established in 1993 and headquartered in Dubai, United Arab Emirates. As one of the most trusted and dynamic private developers in the region, Danube Properties has carved a niche for delivering luxury living at affordable prices, redefining value-driven housing in Dubai’s competitive real estate landscape.",
+    "popupTitle": "DANUBE PROPERTIES Price List!",
+    "award_winning_architecture": "Award-Winning Architecture",
+    "prime_locations": "Prime Locations Across Dubai",
+    "flexible_payment_plans": "Flexible Payment Plans",
+    "strong_roi": "Strong ROI & Capital Growth Potential",
+    "world_class_amenities": "World-Class Amenities",
+    "latest_launches": {
+        "title_main": "LATEST LAUNCH",
+        "title": "TIMEZ BY DANUBE",
+        "tagline": "IT’S TIME TO OWN YOUR DREAM HOME",
+        "register_interest": "REGISTER INTEREST"
+    },
+    "featured_area": {
+        "exterior": "Exterior",
+        "bedroom": "Bedroom",
+        "living_room": "Living Room",
+        "lobby": "Lobby",
+        "pool": "Pool"
+    },
+    "feature_project": {
+        "featured": " FEATURED",
+        "projects": "PROJECTS",
+        "where_idea_turned": "Where ideas turned into reality",
+        "Bays102_by_Danube": "BAYZ102 BY DANUBE",
+        "your_home_in_the_sky": "YOUR HOME IN THE SKY",
+        "Oasiz_by_danube": "OASIZ BY DANUBE",
+        "Affordable_luxary_home": "AFFORDABLE LUXURY HOME",
+        "diamonds_by_danube": "DAIMONDZ BY DANUBE",
+        "where_every_home_sparkels": "WHERE EVERY HOME SPARKELS",
+        "Bays_101_by_danube": "BAYZ101 BY DANUBE",
+        "levels_of_luxary_line1": "101 LEVELS OF LUXURY IN",
+        "levels_of_luxary_line2": "BUSINESS BAY, DUBAI",
+        "sportz_by_danube": "SPORTZ BY DANUBE",
+        "come_home_to_play_line1": "COME HOME TO PLAY",
+        "come_home_to_play_line2": "AESTHETIC MEETS ATHLETICS",
+        "Oceanz_by_danube": "OCEANZ BY DANUBE",
+        "wake_up_to_this": "WAKE UP TO THIS VIEW EVERYDAY"
+    },
+    "why": "why",
+    "danube_properties": "DANUBE PROPERTIES",
+    "invest_in_dubai": "INVEST IN DUBAI",
+    "why_danube_properties": {
+        "feature1": "INTEREST",
+        "feature2": "PER MONTH",
+        "feature3": "MONTHS PAYMENT PLAN",
+        "feature4": "High Return On Investment",
+        "feature5": "Timely Delivery",
+        "feature6": "Prime Locations Across Dubai",
+        "feature7": "Luxury Furnishing",
+        "feature8": "40+ Amenities"
+    },
+    "why_invest_in_dubai": {
+        "safest_city": "Safest City In the world",
+        "fastest_growing_economy": "Fastest Growing Economy",
+        "high_capital_appreciation": "High Capital Appreciation",
+        "ease_of_investment": "Ease of Investment",
+        "freehold_ownership": "Freehold Ownership",
+        "tax_free_income": "100% Tax Free Income",
+        "long_term_golden_visa": "Long-Term Golden Visa",
+        "worldwide_connectivity": "Worldwide Connectivity"
+    },
+    "about_rizwan_sajan": {
+        "title": "About",
+        "name": "RIZWAN SAJAN",
+        "position": "FOUNDER & CHAIRMAN OF DANUBE GROUP",
+        "line_1": "Rizwan Sajan is a visionary entrepreneur and the founder of Danube Group, one of the UAE's most prominent diversified conglomerates. Established in 1993, Danube Group has evolved into a multi-billion-dollar enterprise with operations spanning over 50 countries and a workforce exceeding 3,300 employees.",
+        "watch_complete_story": "WATCH COMPLETE STORY"
+    },
+    "get_in_touch": " GET IN TOUCH",
+    "first_name": "FIRST NAME*",
+    "last_name": "LAST NAME*",
+    "email": "EMAIL (Optional)",
+    "mobile_number": "MOBILE NUMBER*",
+    "message": "MESSAGE",
+    "privacy_disclaimer": {
+        "line_1": "Disclaimer: Danube Properties values your privacy and will use the contact information you provide solely for communicating with you about our products and services. By clicking the submit button, you consent to our sales agents contacting you via phone calls, emails, and WhatsApp messages.You have the right to opt out of these communications at anytime. For more details, please review our comprehensive Privacy Policy."
+    },
+    "Submit": "Submit",
+    "faq": "FAQs",
+    "faqs": {
+        "real_estate_developer": "Real Estate Developer In Dubai",
+        "why_choose_danube_properties": "Why Choose Danube Properties?",
+        "trusted_name_in_real_estate": "A Trusted Name in Real Estate",
+        "investment_opportunities": "Investment Opportunities in Dubai",
+        "impressive_portfolio": "Danube Properties Impressive Portfolio"
+    },
+    "discover_dream_home": "Discover your dream home in this remarkable new residential project in Dubai, today, and take the first step towards a life of comfort, convenience, and serenity.",
+    "useful_links": {
+        "usefulLinks": "Useful Links",
+        "about_us": "About Us",
+        "why_danube_properties": "Why Danube Properties",
+        "latest_launch": "Latest Launch",
+        "why_invest_in_dubai": "Why Invest in Dubai",
+        "feature_projects": "Feature Projects",
+        "faqs": "FAQs",
+        "contact_us": "Contact Us"
+    },
+    "follow_us": "Follow Us On:-",
+    "DisclaimerHead": "Disclaimer:",
+    "disclaimer": {
+        "line_1": "The images shown are for illustration purposes only and may not be an exact representation of the product",
+        "line_2": "Please be advised that this website is not an official site and serves solely as an informational portal managed by a RERA authorized realestate agent. It does not constitute an offer or guarantee of any services. The prices displayed on this website are subject to change without prior notice, and the availability of properties cannot be guaranteed. The images showcased on this website are for representational purposes only and may not accurately reflect the actual properties. We may share your data with Real Estate Regulatory Authority (RERA) registered Developers for further processing as necessary. Additionally, we may send updates and information to the mobile number or email address registered with us.All rights reserved. The content, design, and information on this website are protected by copyright and other intellectual property rights. Any unauthorized use or reproduction of the content may violate applicable laws. For accurate and up-to-date information regarding services, pricing, availability, and any other details, it is recommended to contact us directly through the provided contact information on this website. Thank you for visiting our website.",
+        "line_3": "We are the Authorized Channel Partner of 'Denube Group'. All rights for logo & images are reserved to developer."
+    },
+    "terms_and_conditions": "Terms & Conditions",
+    "and": "and",
+    "Privacy_policy": "Privacy Policy",
+    "crafted_by": "Crafted By:",
+    "The": "The",
+    "Man": "1% Man",
+    "faqAns1": "Are you looking for luxury living with a leading real estate developer in Dubai? In the ever-evolving landscape of Dubai’s real estate market, choosing the right partner for your investment is paramount. As one of the top three real estate developers in Dubai, Danube Properties stands as a beacon of trust, quality, and innovation. Founded in 1993 by Mr. Rizwan Sajan, Danube Properties has grown into a formidable force in the UAE’s real estate sector, offering a diverse range of properties for sale in Dubai that cater to the needs of its global clientele. Specializing in residential homes, commercial spaces, mixed-use developments, and premium luxury estates, Danube Properties caters to a broad spectrum of needs and preferences.",
+    "faqAns2": "Selecting a real estate developer in Dubai is more than just a financial decision; it’s about finding a company that aligns with your vision and goals. Danube Properties has carved out a reputation for delivering high-quality developments on time, ensuring that your investment is secure and fruitful. With over three decades of experience in the industry, the company has consistently met the expectations of its customers through exceptional quality, and prime locations. ",
+    "faqAns2Para2": "Danube Properties is particularly known for pioneering the 1% monthly payment plan with 0% interest and up to 80 months payment plan, making premium property ownership accessible to a wider audience. This approach, combined with over 40 world class amenities offered in their developments, positions Danube as a leader in providing not just properties, but a comprehensive lifestyle. Additionally, a wide range of options cater to different preferences and budgets, ensuring a high return on investment. Danube Properties offers a new standard of living with spacious, fully furnished homes designed for modern lifestyles. These modern homes are equipped with exquisite materials and interiors, providing both luxury and comfort.",
+    "faqAns3": "Danube Properties stands out not only for its exceptional developments but also for its customer-centric approach. The company’s philosophy is centered around delivering value through quality and building long-lasting relationships with its clients.",
+    "faqAns4": "Dubai’s real estate market is booming, with properties for sale in Dubai attracting investors from around the world. The city’s dynamic economy and attractive lifestyle make it a prime destination for real estate investment. Whether you’re looking for a residential home, commercial space, or luxury estate, don’t wait to invest with Danube Properties today.",
+    "faqAns5": "Danube Properties has launched 32 projects, successfully delivering 16, with another 16 currently in various stages of construction. Each project showcases exceptional construction quality, state-of-the-art equipment, and top-tier home interior finishes. These projects include Pearlz, Jewelz, Wavez, Eleganz, Olivz, Elz, Lawnz, Bayz, Miraclz, Resortz, Glamz, Starz, Glitz 3, Glitz 2, Glitz 1, and Dreamz.",
+    "faqAns5Para2": "Danube’s developments are designed to offer a range from affordable to premium luxury, attracting significant interest from a diverse clientele. Since its inception, Danube Properties’ ventures have achieved remarkable success. The combination of attractive payment plans, strategic locations, and an array of modern amenities has made their properties highly desirable. Currently, Danube Properties holds an impressive book value with construction spanning over 25.5 million square feet. Their projects continue to set new standards in the real estate market, delivering exceptional value and quality to their customers.",
+    "ar": "AR",
+    "fr": "FR",
+    "en": "EN"
+}

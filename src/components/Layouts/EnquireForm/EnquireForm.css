@@ -1,0 +1,60 @@
+.form-input:focus {
+    box-shadow: unset;
+}
+
+/* .PhoneInputCountry {
+    display: none !important;
+} */
+
+input.align-middle.size-4 {
+    /* scale: 1.5; */
+    margin-right: 12px;
+}
+
+/* input#name,input#email,.PhoneInput {
+    border-radius: 0px!important;
+} */
+input.PhoneInputInput {
+    background: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #fff;
+}
+.PhoneInputCountrySelectArrow {
+    color: #fff;
+}
+.popup-form .PhoneInputCountrySelectArrow {
+    color: #000;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+}
+.popup-form p.error-class {
+    color: red!important;
+}
+.popup-form input.submit {
+    font-size: 16px;
+    font-weight: 500;
+}
+.popup-form .disclaimer {
+    display: none;
+}
+section#Contact-section .valid-popup {
+    display: none;
+}
+@media (max-width:640px) {
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 15px;
+    }
+}
+
+.contact-section .content input.PhoneInputInput {
+    color: #fff;
+}
