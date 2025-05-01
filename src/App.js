@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React, { useEffect } from 'react';
-import Home from './components/Home/Home';
+import Home from './components/DanubePage/Home';
 import Layout from './components/Layouts/Layout';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import TermsConditions from './components/TermsConditions/TermsConditions';
