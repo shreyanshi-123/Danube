@@ -31,15 +31,15 @@ textarea::placeholder {
 
 input::placeholder,
 textarea::placeholder {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
 }
 .popup-form p.error-class {
     color: red!important;
 }
 .popup-form input.submit {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .popup-form .disclaimer {
     display: none;

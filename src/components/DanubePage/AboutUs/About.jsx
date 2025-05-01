@@ -1,12 +1,12 @@
 import { Dialog } from '@mui/material';
 import EnquireForm from '../../Layouts/EnquireForm/EnquireForm';
-import overlay from '../../../assests/images/DanubeProperties/about/aboutOverlay.png'
-import aboutImg from '../../../assests/images/DanubeProperties/about/about.png'
-import architecture from '../../../assests/images/DanubeProperties/about/architecture.png';
-import PrimeLocation from '../../../assests/images/DanubeProperties/about/home.png';
-import PaymentPlans from '../../../assests/images/DanubeProperties/about/hand.png';
-import CapitalGrowth from '../../../assests/images/DanubeProperties/about/graph.png';
-import WorldClassAmenities from '../../../assests/images/DanubeProperties/about/amenities.png';
+import overlay from '../../../assests/images/about/aboutOverlay.png'
+import aboutImg from '../../../assests/images/about/about.png'
+import architecture from '../../../assests/images/about/architecture.png';
+import PrimeLocation from '../../../assests/images/about/home.png';
+import PaymentPlans from '../../../assests/images/about/hand.png';
+import CapitalGrowth from '../../../assests/images/about/graph.png';
+import WorldClassAmenities from '../../../assests/images/about/amenities.png';
 import './about.css'
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

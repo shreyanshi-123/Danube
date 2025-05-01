@@ -1,18 +1,18 @@
 import './Banner.css';
 // import banner1 from '../../../assests/images/DAMAC-Safa-Gate-at-Sheikh-Zayed-Road-29.webp';
-import banner2 from '../../../assests/images/DAMAC_Islands.jpg';
-import banner3 from '../../../assests/images/Damac-Riverside-River-View.avif';
-import banner from '../../../assests/images/DanubeProperties/banner3.png';
-import home from '../../../assests/images/DanubeProperties/home.png'
-import banner4 from '../../../assests/images/banner-slider.jpg';
-import banner5 from '../../../assests/images/DAMAC-Lagoons-new-launchTownhouses-in-dubai.jpg';
-import banner6 from '../../../assests/images/banner-slider-main.avif';
+// import banner2 from '../../../assests/images/DAMAC_Islands.jpg';
+// import banner3 from '../../../assests/images/Damac-Riverside-River-View.avif';
+import banner from '../../../assests/images/banner3.png';
+import home from '../../../assests/images/home.png'
+// import banner4 from '../../../assests/images/banner-slider.jpg';
+// import banner5 from '../../../assests/images/DAMAC-Lagoons-new-launchTownhouses-in-dubai.jpg';
+// import banner6 from '../../../assests/images/banner-slider-main.avif';
 import Slider from 'react-slick';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from '../../Layouts/languageSwitcher';
+// import LanguageSwitcher from '../../Layouts/languageSwitcher';
 
 const BannerSlider = () => {
   const { t, i18n } = useTranslation();
@@ -36,7 +36,7 @@ const BannerSlider = () => {
             {/* <Slider {...settings}>
                 {slides.map((el, i) => ( */}
                     <div className='w-full content-center  relative overflow-hidden' >
-                        <div className='max-w-6xl m-auto justify-start sm:justify-end flex relative h-screen home-banner-danube text-white px-2.5 py-3 z-0'>
+                        <div className='max-w-6xl m-auto justify-center sm:justify-end flex relative h-screen home-banner-danube text-white px-2.5 py-3 z-0'>
                             <div className="flex flex-col items-center">
                                 <div md={12} xl={10} className='  m-auto mr-11 parent-text '>
                                     <div className='flex bg-banner-txt p-2 sm:p-6 h-full flex-col gap-4 text-left z-0'>

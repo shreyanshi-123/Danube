@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import './thankyou.css'
+import './thankyou.css';
+import { useTranslation } from 'react-i18next';
 export default function Thankyou() {
 
-
+  const { t } = useTranslation();
     useEffect(() => {
         window.scrollTo(0,0);
      
@@ -26,11 +27,11 @@ export default function Thankyou() {
         <div className="thankyou-enclose py-10 px-10">
             <div className="text-white  check"> <FontAwesomeIcon icon={faCheck} /></div>
             <div className="thankyou-text items-center text-4xl font-semibold my-5 text-primary-yellow  text-center">
-                Thank You 
+                {t('thankyou')}
                 
             </div>
-            <div className='items-center  text-center thankyou-subtxt'>For Trusting Us with Your Home Search !!</div>
-            <div className='items-center  text-center thankyou-subtxt'> We’ll Reach Out Soon With All the Details.</div>
+            <div className='items-center  text-center thankyou-subtxt'>{t('Thankyou_sub1')}</div>
+            <div className='items-center  text-center thankyou-subtxt'>{t('Thankyou_sub2')}</div>
             </div>
         </div>
     </div>

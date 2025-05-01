@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
-import logo from '../../../assests/images/damac-logo.svg';
-import Danubelogo from '../../../assests/images/DanubeProperties/logofooter.png';
+// import logo from '../../../assests/images/damac-logo.svg';
+import Danubelogo from '../../../assests/images/logofooter.png';
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
@@ -75,17 +75,17 @@ const Footer = () => {
                                         />
                                     </NavLink>
                                 </div>
-                                <p className="text-sm sm:text-[16px] text-white font-normal">{t('discover_dream_home')}</p>
+                                <p className="text-sm sm:text-[16px] text-white font-normal leading-[1.2]">{t('discover_dream_home')}</p>
                             </div>
 
                             {/* Column 2 - Useful Links */}
                             <div className="flex flex-col gap-3 lg:w-[46%] m-0">
                                 <div className="w-full md:w-auto flex flex-col gap-[15px] overflow-hidden items-start m-0 lg:mx-auto">
-                                    <h6 className="text-[20px] font-medium text-left text-white">{t('useful_links.usefulLinks')}</h6>
+                                    <h6 className="pop-menu text-[20px] font-medium text-left text-white">{t('useful_links.usefulLinks')}</h6>
                                     <ul className="flex flex-col sm:grid grid-cols-[auto,auto] justify-center gap-y-[7px] gap-x-[20px]">
                                         {/* <li><NavLink to='/danube/aboutUs' className="text-sm sm:text-[16px] font-medium hover:text-primary-yellow text-white"><FontAwesomeIcon icon={faAngleRight} className="text-white pr-1.5" /> About Us</NavLink></li> */}
                                         {DanubeMenu.map((item, i) => (
-                                            <li key={i}><NavLink to={item.redirect} className="text-sm sm:text-[16px]  hover:text-primary-yellow text-white font-light" target={item.redirect.includes('http') ? '_blank' : '_self'}><FontAwesomeIcon icon={faAngleRight} className="text-white pr-1.5" /> {t(item.name)}</NavLink></li>
+                                            <li key={i} className="pop-menu"><NavLink to={item.redirect} className="text-sm sm:text-[16px]   text-white font-light " target={item.redirect.includes('http') ? '_blank' : '_self'}><FontAwesomeIcon icon={faAngleRight} className="text-white pr-1.5 " /> {t(item.name)}</NavLink></li>
                                         ))}
                                     </ul>
                                 </div>
@@ -120,14 +120,14 @@ const Footer = () => {
                             <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-8 py-8 w-full">
                                 <div className="flex items-center justify-center lg:justify-start">
                                     <p className='flex gap-1 mt-1.5 text-[12px] text-white font-light'>
-                                        <NavLink to='/terms-conditions' target='_blank' className='text-primary-yellow  text-white underline hover:text-primary-yellow font-light'>{t('terms_and_conditions')}</NavLink> {t('and')}
-                                        <NavLink to='/privacy-policy' target='_blank' className='text-primary-yellow  text-white underline hover:text-primary-yellow font-light'>{t('Privacy_policy')}</NavLink>
+                                        <NavLink to='/terms-conditions' target='_blank' className='text-primary-yellow  text-white underline  font-light pop-menu underline-offset-4'>{t('terms_and_conditions')}</NavLink> {t('and')}
+                                        <NavLink to='/privacy-policy' target='_blank' className='text-primary-yellow  text-white underline  font-light pop-menu underline-offset-4'>{t('Privacy_policy')}</NavLink>
                                     </p>
                                 </div>
 
                                 <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-end ">
-                                    <p className='mt-1.5 text-[12px] text-white font-light'>
-                                        {t('crafted_by')} <NavLink to='https://iosandweb.net/' target='_blank' className='hover:text-primary-yellow text-white underline'>IosAndWeb Technologies</NavLink>
+                                    <p className='mt-1.5 text-[12px] text-white font-light flex  gap-1'>
+                                        {t('crafted_by')} <div className="pop-menu"><NavLink to='https://iosandweb.net/' target='_blank' className=' text-white pop-menu underline underline-offset-4'>IosAndWeb Technologies</NavLink></div>
                                     </p>
                                 </div>
                             </div>

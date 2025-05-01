@@ -1,13 +1,13 @@
 import { useState } from "react";
-import Zero from '../../../assests/images/DanubeProperties/Why/1percent.png';
-import One from '../../../assests/images/DanubeProperties/Why/percento.png';
-import eighty from '../../../assests/images/DanubeProperties/Why/eighty8.png';
-import investment from '../../../assests/images/DanubeProperties/Why/investIcon.png';
-import calender from '../../../assests/images/DanubeProperties/Why/calendar.png';
-import primeLocation from '../../../assests/images/DanubeProperties/Why/locationIcon.png';
-import Luxary from '../../../assests/images/DanubeProperties/Why/sofa.png';
-import pool from '../../../assests/images/DanubeProperties/Why/swimmingIcon.png';
-import whyDanube1 from '../../../assests/images/DanubeProperties/Why/why1.jpg';
+import Zero from '../../../assests/images/whyIcons/zeropercent.png';
+import One from '../../../assests/images/whyIcons/one-percnt.png';
+import eighty from '../../../assests/images/whyIcons/eightyy.png';
+import investment from '../../../assests/images/whyIcons/highreturnn.png';
+import calender from '../../../assests/images/whyIcons/calender.png';
+import primeLocation from '../../../assests/images/whyIcons/maplocation.png';
+import Luxary from '../../../assests/images/whyIcons/soffa.png';
+import pool from '../../../assests/images/whyIcons/ammentity.png';
+import whyDanube1 from '../../../assests/images/why1.jpg';
 import './whyDanube.css';
 import { useTranslation } from 'react-i18next';
 // image font family roboto condense
@@ -44,7 +44,7 @@ const LatestLaunches = () => {
     };
 
     return (
-        <section className="home-whyDanube pb-20 px-2.5" id='WhyDanube'>
+        <section className="home-whyDanube py-20 px-2.5" id='WhyDanube'>
             <div className='max-w-6xl m-auto'>
                 <div className="flex flex-col text-left gap-1 md:gap-0 uppercase">
                     <div className="flex flex-col md:flex-row sm:justify-between gap-4">
@@ -55,7 +55,7 @@ const LatestLaunches = () => {
                             </h2>
                         </div>
                     </div>
-                    <div className="flex flex-col md:flex-row gap-5 lg:gap-8 pt-5  mob-center">
+                    <div className="flex flex-col md:flex-row gap-5 lg:gap-8 pt-20 md:pt-5  mob-center">
                         <div className="flex items-center w-full">
                         <div className="grid w-full main-abt single-col grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 py-0 h-max">
                             {whyFeatures.map((item) => (

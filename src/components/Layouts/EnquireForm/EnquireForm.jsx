@@ -29,7 +29,7 @@ const EnquireForm = ({ subtitle, title, setOpen, button, setshowsidePopup }) => 
 
         if (mobileNumber) {
             if (!isValidPhoneNumber(mobileNumber) || !isPossiblePhoneNumber(mobileNumber)) {
-                setPhoneError("Please Enter Valid Mobile Number.");
+                setPhoneError(t('validation.mobile_number_error'));
                 setTimeout(() => setPhoneError(''), 5000);
                 return false;
             }
@@ -56,13 +56,13 @@ const EnquireForm = ({ subtitle, title, setOpen, button, setshowsidePopup }) => 
                     navigate('/thankyou');
                     resetForm();
                 } else {
-                    setFormError("Some error occurred");
+                    setFormError(t('validation.generic_error'));
                     setTimeout(() => setFormError(''), 10000);
                 }
             })
             .catch(function () {
                 setLoading(true);
-                setFormError("Some error occurred");
+                setFormError(t('validation.generic_error'));
                 setTimeout(() => setFormError(''), 5000);
             });
     };
@@ -95,7 +95,7 @@ const EnquireForm = ({ subtitle, title, setOpen, button, setshowsidePopup }) => 
     };
 
     return (
-        <form className="enquire-form py-6" onSubmit={handleSubmit}>
+        <form className="enquire-form py-[15px]" onSubmit={handleSubmit}>
             <div className="form-section text-left">
                 {formError && <p className="error-class text-red-400 py-2 text-[15px] text-center">{formError}</p>}
                 <h2 className='text-[30px] sm:text-[40px]  text-left text-primary-yellow mb-3 leading-[1.2}'>{title}</h2>
@@ -105,7 +105,7 @@ const EnquireForm = ({ subtitle, title, setOpen, button, setshowsidePopup }) => 
                     <input
                         type="text"
                         placeholder= {t('first_name')}
-                        className="text-md form-input rounded-[3px] border border-gray-300 w-full my-1.5 px-7 py-4.5 bg-transparent text-white"
+                        className="capitalize text-md form-input rounded-[3px] border border-gray-300 w-full my-1.5 px-3.5 py-2.5 bg-transparent text-white"
                         required
                         value={firstName}
                         onChange={(e) => handleNameChange(e, 'firstName')}
@@ -113,7 +113,7 @@ const EnquireForm = ({ subtitle, title, setOpen, button, setshowsidePopup }) => 
                     <input
                         type="text"
                         placeholder= {t('last_name')}
-                        className="text-md form-input rounded-[3px] border border-gray-300 w-full my-1.5 px-7 py-4.5 bg-transparent text-white"
+                        className="capitalize text-md form-input rounded-[3px] border border-gray-300 w-full my-1.5 px-3.5 py-2.5 bg-transparent text-white"
                         required
                         value={lastName}
                         onChange={(e) => handleNameChange(e, 'lastName')}
@@ -124,7 +124,7 @@ const EnquireForm = ({ subtitle, title, setOpen, button, setshowsidePopup }) => 
                     <input
                         type="text"
                         placeholder= {t('email')}
-                        className="text-md form-input rounded-[3px] border border-gray-300 w-full px-7 py-4.5 bg-transparent text-white"
+                        className="text-md form-input rounded-[3px] border border-gray-300 w-full px-3.5 py-2.5 bg-transparent text-white"
                         value={email}
                         onChange={handleEmailChange}
                     />
@@ -133,14 +133,14 @@ const EnquireForm = ({ subtitle, title, setOpen, button, setshowsidePopup }) => 
                 <div className="py-1.5">
                     <PhoneInput
                         placeholder={t('mobile_number')}
-                        className="text-md form-input rounded-[3px] border border-gray-300 w-full px-7 py-4.5 bg-transparent "
+                        className="text-md form-input rounded-[3px] border border-gray-300 w-full px-3.5 py-2.5 bg-transparent "
                         country="IN"
                         defaultCountry="IN"
                         value={mobileNumber}
                         onChange={handlePhoneChange}
                         required
                     />
-                    {phoneError && <p className="error-class text-primary-red text-xs py-1.5">{phoneError}</p>}
+                    {phoneError && <p className="error-class text-primary-red text-xs pt-1.5">{phoneError}</p>}
                 </div>
 
                 <div className="py-1.5">
@@ -148,13 +148,13 @@ const EnquireForm = ({ subtitle, title, setOpen, button, setshowsidePopup }) => 
                         placeholder={t('message')}
                         rows={5}
                         cols={40}
-                        className="text-md form-input rounded-[3px] border border-gray-300 w-full px-7  py-4.5 bg-transparent text-white"
+                        className="capitalize text-md form-input rounded-[3px] border border-gray-300 w-full px-3.5  py-2.5 bg-transparent text-white"
                        
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
                     />
                 </div>
-                <p className="flex text-sm sm:text-[16px] font-medium text-black valid-popup">
+                <p className="flex text-sm  font-medium text-black valid-popup">
                    {t('popupForm')}
                 </p>
                 <p className="flex text-sm sm:text-[18px]  text-white disclaimer leading-[1.2]">
@@ -162,11 +162,11 @@ const EnquireForm = ({ subtitle, title, setOpen, button, setshowsidePopup }) => 
                     {t('privacy_disclaimer.line_1')}
                 </p>
 
-                <div className="mt-5 sm:mt-6 flex items-center gap-5 justify-start">
+                <div className="mt-2.5 flex items-center gap-5 justify-start">
                     <input
                         type="submit"
                         value={button ? button : t('Submit')}
-                        className={`submit w-max hover:text-white font-semibold text-white uppercase text-xs sm:text-[18px] tracking-widest  py-[11.5px]  px-4 1xl:px-8 bg-primary-btnGray hover:bg-primary-yellow border-2 border-primary-btnGray hover:border-primary-yellow rounded-[3px] cursor-pointer flex items-center justify-center leading-[1]`}
+                        className={`submit w-max hover:text-white font-semibold text-white capitalize text-xs sm:text-[18px] tracking-widest  py-[11.5px]  px-4 1xl:px-8 bg-primary-btnGray hover:bg-primary-yellow border-2 border-primary-btnGray hover:border-primary-yellow rounded-[3px] cursor-pointer flex items-center justify-center leading-[1]`}
                         disabled={loading}
                     />
                     {loading && (

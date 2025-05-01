@@ -1,13 +1,13 @@
 
 import { useState } from "react";
-import city from '../../../assests/images/DanubeProperties/Why/burj-al-arab.png';
-import Economy from '../../../assests/images/DanubeProperties/Why/trend.png';
-import capital from '../../../assests/images/DanubeProperties/Why/graphical.png';
-import investment from '../../../assests/images/DanubeProperties/Why/highreturnIcon.png';
-import ownership from '../../../assests/images/DanubeProperties/Why/house-key.png';
-import income from '../../../assests/images/DanubeProperties/Why/tax-free.png';
-import GoldenVisa from '../../../assests/images/DanubeProperties/Why/stamp.png';
-import Internet from '../../../assests/images/DanubeProperties/Why/internet-connection.png';
+import city from '../../../assests/images/whyIcons/safecity.png';
+import Economy from '../../../assests/images/whyIcons/grow.png';
+import capital from '../../../assests/images/whyIcons/highcapacity.png';
+import investment from '../../../assests/images/whyIcons/invest_money.png';
+import ownership from '../../../assests/images/whyIcons/ownership.png';
+import income from '../../../assests/images/whyIcons/taxfree.png';
+import GoldenVisa from '../../../assests/images/whyIcons/goldenVisa.png';
+import Internet from '../../../assests/images/whyIcons/connectivity.png';
 import { Dialog } from '@mui/material';
 import EnquireForm from '../../Layouts/EnquireForm/EnquireForm';
 import './whyDubai.css'
@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClose } from '@fortawesome/free-solid-svg-icons';
 import Lightbox from "yet-another-react-lightbox";
 import { Fullscreen, Zoom } from "yet-another-react-lightbox/plugins";
-import whyDubai1 from '../../../assests/images/DanubeProperties/Why/why2.jpg'
+import whyDubai1 from '../../../assests/images/why2.jpg'
 import { useTranslation } from 'react-i18next';
 
 const LatestLaunches = () => {
@@ -82,7 +82,7 @@ const LatestLaunches = () => {
         <>
             <section className="home-whyDubai pb-20 px-2.5" id='whyDubai'>
                 <div className='max-w-6xl m-auto'>
-                    <div className="flex flex-col text-left gap-1 md:gap-0 uppercase">
+                    <div className="flex flex-col text-left gap-0 uppercase">
                         <div className="flex flex-col md:flex-row sm:justify-between gap-4">
                             <div className="w-full flex gap-2.5 flex-col">
                                 <h3 className="text-sm lg:text-[18px] font-medium text-left md:text-right leading-[1]">{t('why')}</h3>
@@ -91,7 +91,7 @@ const LatestLaunches = () => {
                             </div>
 
                         </div>
-                        <div className="flex flex-col-reverse md:flex-row  gap-5 lg:gap-8  pt-5   ">
+                        <div className="flex flex-col-reverse md:flex-row  gap-5 lg:gap-8  pt-20 md:pt-5  ">
                             <img className="w-full md:w-2/5  lg:w-1/3" src={whyDubai1} alt="" />
                             <div className="flex items-center w-full">
                                 <div className="w-full main-abt grid single-col grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 py-0 h-max">

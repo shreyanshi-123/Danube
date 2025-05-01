@@ -1,10 +1,10 @@
-import bedroom from '../../../assests/images/DanubeProperties/latestLaunches/Bedroom2.png';
-import exterior from '../../../assests/images/DanubeProperties/latestLaunches/exterior3.png';
-import livingroom from '../../../assests/images/DanubeProperties/latestLaunches/livingRoom2.png';
-import lobby from '../../../assests/images/DanubeProperties/latestLaunches/lobby2.png';
-import pool from '../../../assests/images/DanubeProperties/latestLaunches/pool2.png';
+import bedroom from '../../../assests/images/latestLaunches/Bedroom2.png';
+import exterior from '../../../assests/images/latestLaunches/exterior3.png';
+import livingroom from '../../../assests/images/latestLaunches/livingRoom2.png';
+import lobby from '../../../assests/images/latestLaunches/lobby2.png';
+import pool from '../../../assests/images/latestLaunches/pool2.png';
 import { useState } from "react";
-import discover from '../../../assests/images/DanubeProperties/expand-arrows.png'
+import discover from '../../../assests/images/expand-arrows.png'
 import { Dialog } from '@mui/material';
 import EnquireForm from '../../Layouts/EnquireForm/EnquireForm';
 import './newLaunch.css';
@@ -63,7 +63,7 @@ const LatestLaunches = () => {
     <>
       <section className="home-NewLaunches-section pb-20 " id="NewLaunches">
 
-        <div className="flex flex-col text-left gap-1 uppercase">
+        <div className="flex flex-col text-left  uppercase">
           <div className='px-2.5'>
           <div className='max-w-6xl m-auto w-full'>
             <div className="flex flex-col md:flex-row sm:justify-between gap-5">

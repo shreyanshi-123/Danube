@@ -16,6 +16,9 @@
         "arabic": "Arabe",
         "francais": "Français"
     },
+    "thankyou": "Merci",
+    "Thankyou_sub1": "Pour nous avoir fait confiance dans votre recherche de maison !!",
+    "Thankyou_sub2": " Nous vous contacterons bientôt avec tous les détails.",
     "download_brochure": "TÉLÉCHARGER LA BROCHURE",
     "hero_section": {
         "heading": "Vivez au cœur de Dubaï -",
@@ -92,11 +95,11 @@
         "watch_complete_story": "REGARDER L'HISTOIRE COMPLÈTE"
     },
     "get_in_touch": "ENTRER EN CONTACT",
-    "first_name": "PRÉNOM*",
-    "last_name": "NOM DE FAMILLE*",
-    "email": "EMAIL (Optionnel)",
-    "mobile_number": "NUMÉRO DE TÉLÉPHONE MOBILE*",
-    "message": "MESSAGE",
+    "first_name": "Prénom*",
+    "last_name": "Nom De Famille*",
+    "email": "Email(Optionnel)",
+    "mobile_number": "Numéro De Téléphone Mobile*",
+    "message": "Message",
     "privacy_disclaimer": {
         "line_1": "Avis de non-responsabilité : Danube Properties respecte votre vie privée et utilisera vos coordonnées uniquement pour vous contacter au sujet de nos produits et services. En cliquant sur « Envoyer », vous acceptez que nos agents commerciaux vous contactent par téléphone, e-mail et WhatsApp. Vous avez le droit de vous désinscrire de ces communications à tout moment. Pour plus d'informations, veuillez consulter notre Politique de confidentialité."
     },
@@ -129,10 +132,10 @@
         "line_2": "Veuillez noter que ce site web n'est pas un site officiel et sert uniquement de portail d'information géré par un agent immobilier agréé RERA. Il ne constitue ni une offre ni une garantie de services. Les prix affichés sur ce site sont susceptibles d'être modifiés sans préavis et la disponibilité des biens ne peut être garantie. Les images présentées sur ce site sont fournies à titre indicatif uniquement et peuvent ne pas refléter fidèlement les biens réels. Nous sommes susceptibles de partager vos données avec des promoteurs agréés par la Real Estate Regulatory Authority (RERA) pour traitement ultérieur si nécessaire. De plus, nous pouvons envoyer des mises à jour et des informations au numéro de téléphone portable ou à l'adresse e-mail que nous avons enregistrés. Tous droits réservés. Le contenu, la conception et les informations de ce site web sont protégés par le droit d'auteur et d'autres droits de propriété intellectuelle. Toute utilisation ou reproduction non autorisée du contenu peut constituer une violation des lois applicables. Pour obtenir des informations précises et à jour concernant les services, les tarifs, la disponibilité et tout autre détail, nous vous recommandons de nous contacter directement aux coordonnées fournies sur ce site. Merci de votre visite.",
         "line_3": "Nous sommes le partenaire agréé du Groupe Denube. Tous droits sur le logo et les images réservés au développeur."
     },
-    "terms_and_conditions": "Terms & Conditions",
-    "and": "and",
-    "Privacy_policy": "Privacy Policy",
-    "crafted_by": "Crafted By:",
+    "terms_and_conditions": "Conditions générales",
+    "and": "et",
+    "Privacy_policy": "politique de confidentialité",
+    "crafted_by": "Fabriqué par:",
     "The": "le",
     "Man": "homme",
     "faqAns1": "Vous recherchez un logement de luxe auprès d'un promoteur immobilier de premier plan à Dubaï ? Dans un marché immobilier en constante évolution, choisir le bon partenaire pour votre investissement est primordial. Figurant parmi les trois premiers promoteurs immobiliers de Dubaï, Danube Properties est un modèle de confiance, de qualité et d'innovation. Fondée en 1993 par M. Rizwan Sajan, Danube Properties est devenue un acteur majeur du secteur immobilier aux Émirats arabes unis, proposant une gamme diversifiée de biens à vendre à Dubaï, répondant aux besoins de sa clientèle internationale. Spécialisée dans les résidences, les espaces commerciaux, les programmes à usage mixte et les propriétés de luxe haut de gamme, Danube Properties répond à un large éventail de besoins et de préférences.",
@@ -144,5 +147,74 @@
     "faqAns5Para2": "Les projets de Danube Properties sont conçus pour offrir une gamme de biens allant de l'abordable au luxe haut de gamme, suscitant un intérêt considérable auprès d'une clientèle diversifiée. Depuis leur création, les projets de Danube Properties ont connu un succès remarquable. La combinaison de plans de paiement attractifs, d'emplacements stratégiques et d'une gamme d'équipements modernes a rendu leurs propriétés très prisées. Danube Properties affiche actuellement une valeur comptable impressionnante, avec des constructions s'étendant sur plus de 25,5 millions de pieds carrés. Leurs projets continuent d'établir de nouvelles normes sur le marché immobilier, offrant une valeur et une qualité exceptionnelles à leurs clients.",
     "ar": "AR",
     "fr": "FR",
-    "en": "EN"
+    "en": "EN",
+   "terms_n_conditions": {
+        "title": "Termes et Conditions",
+        "content": {
+          "intro": "Veuillez noter que l'accès ou l'utilisation de la page de destination implique le consentement de l'utilisateur à respecter les termes et conditions suivants :",
+          "intellectual_property": {
+            "title": "Propriété Intellectuelle",
+            "description": "Tout le contenu, les images, les logos et autres matériaux présents sur cette page de destination sont la propriété du développeur du projet respectif ou de ses concédants. Ces propriétés sont protégées par les lois sur la propriété intellectuelle, et il est expressément interdit aux utilisateurs de copier, modifier, distribuer ou utiliser tout contenu sans avoir obtenu une autorisation écrite préalable."
+          },
+          "property_information": {
+            "title": "Informations sur la Propriété",
+            "description": "Le contenu de cette page de destination, y compris les détails des propriétés, les prix et la disponibilité, peut être modifié à tout moment. La société décline toute responsabilité en cas d'inexactitudes ou d'omissions dans les informations fournies."
+          },
+          "user_obligations": {
+            "title": "Obligations de l'Utilisateur",
+            "description": "Les utilisateurs sont tenus de fournir des informations exactes et à jour lorsqu'ils soumettent des demandes ou des demandes via la page de destination. De plus, les utilisateurs doivent s'engager à ne pas se livrer à des activités illégales ou nuisibles, telles que le piratage, le spam ou la transmission de logiciels malveillants."
+          },
+          "disclaimer_of_liability": {
+            "title": "Exonération de Responsabilité",
+            "description": "La société décline explicitement toute responsabilité pour tout dommage, perte ou blessure résultant de l'utilisation de la page de destination ou de la confiance accordée aux informations fournies. Cette exonération s'étend, mais sans s'y limiter, aux pertes financières, aux dommages matériels ou à tout autre dommage direct ou indirect."
+          },
+          "links_to_third_party_websites": {
+            "title": "Liens vers des Sites Web Tiers",
+            "description": "Cette page de destination peut contenir des liens vers des sites Web ou des ressources externes. Nous n'approuvons ni ne sommes responsables du contenu, des pratiques de confidentialité ou de la disponibilité de ces sites tiers."
+          },
+          "modifications_to_the_terms": {
+            "title": "Modifications des Termes",
+            "description": "La société peut mettre à jour ou modifier ces termes et conditions à tout moment sans préavis. Nous vous encourageons à revoir périodiquement ces termes pour rester informé de tout changement."
+          },
+          "governing_law_and_jurisdiction": {
+            "title": "Droit Applicable et Juridiction",
+            "description": "Tout litige juridique découlant de votre utilisation de cette page de destination sera régi par les lois de l'État du Maharashtra et sera résolu devant les tribunaux de Mumbai."
+          }
+        }
+      },
+     "privacy_policy": {
+      "title": "Politique de Confidentialité",
+      "content": {
+        "intro": "Ce site web n'est pas le site officiel ; il est destiné à des fins uniquement informatives. Dans notre engagement à protéger vos informations personnelles, nous avons formulé cette politique de confidentialité complète pour protéger vos intérêts et données sur notre site web.",
+        "update_policy": {
+          "title": "Mise à jour de la Politique de Confidentialité",
+          "description": "Cette politique de confidentialité est susceptible d'être révisée et mise à jour à tout moment, sans notification ni consentement. Par conséquent, veuillez revisiter régulièrement le site web et consulter les termes et conditions de cette politique de confidentialité pour rester informé des modifications qui ont été apportées."
+        },
+        "user_information": {
+          "title": "Informations sur l'Utilisateur",
+          "description": "En accédant à notre site web, vous acceptez nos conditions et nous autorisez à collecter et utiliser toute information que vous soumettez volontairement. Alors que certaines visites peuvent ne pas nécessiter d'informations personnelles, d'autres peuvent en exiger pour donner accès à des liens ou sites web spécifiques. Nous utilisons les informations que vous nous fournissez pour envoyer des informations et des mises à jour, confirmer la réception de votre message, et offrir des biens et services pertinents. Nous ne partageons pas les informations personnelles avec des parties externes et vous avez la possibilité de vous désinscrire de notre liste de diffusion."
+        },
+        "security": {
+          "title": "Sécurité",
+          "description": "Les informations sensibles sont cryptées pendant leur transmission entre le client et le serveur. Nous restreignons l'accès des employés à vos informations personnelles et les tenons à un niveau élevé de confidentialité. Nous pouvons utiliser des cookies à des fins de sécurité, de continuité de session et de personnalisation. Le refus des cookies peut limiter votre accès à certains services ou fonctionnalités."
+        },
+        "disclaimer": {
+          "description": "Ce site web n'est pas le site officiel ; il est destiné à des fins uniquement informatives."
+        }
+      }
+    },
+    "404_page": {
+    "heading": "404",
+    "oops_message": "Oups ! Cette page est introuvable.",
+    "separator": "Nous sommes vraiment désolés, mais nous ne trouvons pas la page que vous cherchiez.",
+    "back_to_home": "Retour à l'accueil"
+  },
+  "validation": {
+    "mobile_number_error": "Veuillez entrer un numéro de téléphone valide.",
+    "generic_error": "Une erreur est survenue."
+  }
+  
 }
+
+
+  

@@ -1,8 +1,8 @@
 import { Dialog } from '@mui/material';
 import EnquireForm from '../../Layouts/EnquireForm/EnquireForm';
-import Owner from '../../../assests/images/DanubeProperties/ownerImg.png'
-import aboutImg from '../../../assests/images/DanubeProperties/Danube3.jpg'
-import video from './../../../assests/images/DanubeProperties/video.png'
+import Owner from '../../../assests/images/ownerImg.png'
+import aboutImg from '../../../assests/images/AboveGetintouch.jpg'
+import video from './../../../assests/images/video.png'
 import './owner.css'
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

@@ -1,9 +1,9 @@
-import Slider1 from '../../../assests/images/DanubeProperties/slider/ProjectS1.jpg';
-import slider2 from '../../../assests/images/DanubeProperties/slider/ProjectS2.png';
-import slider3 from '../../../assests/images/DanubeProperties/slider/ProjectS3.jpg';
-import slider4 from '../../../assests/images/DanubeProperties/slider/ProjectS4.jpg';
-import slider5 from '../../../assests/images/DanubeProperties/slider/ProjectS5.jpg';
-import slider6 from '../../../assests/images/DanubeProperties/slider/ProjectS6.jpg';
+import Slider1 from '../../../assests/images/slider/ProjectS1.jpg';
+import slider2 from '../../../assests/images/slider/ProjectS2.png';
+import slider3 from '../../../assests/images/slider/ProjectS3.jpg';
+import slider4 from '../../../assests/images/slider/ProjectS4.jpg';
+import slider5 from '../../../assests/images/slider/ProjectS5.jpg';
+import slider6 from '../../../assests/images/slider/ProjectS6.jpg';
 import { useTranslation } from 'react-i18next';
 import Slider from 'react-slick';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -70,7 +70,7 @@ const BannerSlider = () => {
   ];
 
   return (
-    <section className="home-featuredProjects pb-20 px-0 gap-1" id='featured-project'>
+    <section className="home-featuredProjects pb-8 px-0 gap-1" id='featured-project'>
         <div className='max-w-6xl px-2.5 m-auto'>
           <div className="flex flex-col md:flex-row sm:justify-between gap-4 pb-20">
             <div>

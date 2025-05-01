@@ -1,5 +1,5 @@
 .danube-footer{
-    background-image: url(../../../assests/images/DanubeProperties/denube-footer-bg-1.png);
+    background-image: url(../../../assests/images/denube-footer-bg-1.png);
     position: relative;
         background-size: cover;
         background-repeat: no-repeat;
@@ -39,4 +39,11 @@ p.flex.gap-2.mt-1\.5.text-\[16px\].text-white {
 }}
 li.denube-link.social:hover svg {
     color: black;
+}
+
+.pop-menu{
+    transition: all 0.3s ease;
+}
+.pop-menu:hover {
+    transform: translate(0, -2px);
 }
