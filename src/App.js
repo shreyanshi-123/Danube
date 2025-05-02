@@ -14,7 +14,7 @@ import Thankyou from './components/Thankyou';
 // import PriceListPage from './components/PriceListPage/PriceListPage';
 // import GalleryPage from './components/GalleryPage/GalleryPage';
 // import AmenitiesPage from './components/AmenitiesPage/AmenitiesPage';
-import DanubePage from './components/DanubePage/Danube';
+import DanubePage from './components/DanubePage/Home';
 import './i18n';
 import { useTranslation } from 'react-i18next';
 
@@ -60,13 +60,13 @@ function App() {
             <Route path='flats' element={<Home />} />
             <Route path='luxuryflats/3+1bhk' element={<Home />} />
             <Route path='danube' element={<DanubePage />} />
-            <Route path='/WhyDanube' element={<DanubePage />} />
-            <Route path='/whyDubai' element={<DanubePage />} />
-            <Route path='/NewLaunches' element={<DanubePage />} />
+            <Route path='/why-danube' element={<DanubePage />} />
+            <Route path='/why-dubai' element={<DanubePage />} />
+            <Route path='/new-launches' element={<DanubePage />} />
             <Route path='/featured-project' element={<DanubePage />} />
-            <Route path='/aboutUs' element={<DanubePage />} />
-            <Route path='/faq-section' element={<DanubePage />} />
-            <Route path='/Contact-section' element={<DanubePage />} />
+            <Route path='/about-us' element={<DanubePage />} />
+            <Route path='/faq' element={<DanubePage />} />
+            <Route path='/contact-us' element={<DanubePage />} />
           </Route>
           
         </Routes>

@@ -44,8 +44,11 @@ textarea::placeholder {
 .popup-form .disclaimer {
     display: none;
 }
-section#Contact-section .valid-popup {
+section#contact-us .valid-popup {
     display: none;
+}
+.popup-form .valid-popup {
+    display: block!important;
 }
 @media (max-width:640px) {
 

@@ -61,7 +61,7 @@ const LatestLaunches = () => {
 
   return (
     <>
-      <section className="home-NewLaunches-section pb-20 " id="NewLaunches">
+      <section className="home-NewLaunches-section pb-20 " id="new-launches">
 
         <div className="flex flex-col text-left  uppercase">
           <div className='px-2.5'>

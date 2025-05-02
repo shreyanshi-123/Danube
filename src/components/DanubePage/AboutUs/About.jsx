@@ -45,7 +45,7 @@ const AboutSection = () => {
 
     return (
         <>
-            <section className="home-about-section py-20 px-2.5" id="aboutUs">
+            <section className="home-about-section py-20 px-2.5" id="about-us">
                 <div className='max-w-6xl m-auto'>
                     <div className="flex flex-col text-left gap-5 sm:gap-7">
                         <h2 className="text-2xl sm:text-[33px] font-semibold text-left text-[#4E2807] leading-[1]">{t('navigation.about_us')}</h2>
@@ -54,7 +54,7 @@ const AboutSection = () => {
                             <LazyLoadImage src={overlay} alt='' className="w-full z-0 relative" />
                             <LazyLoadImage src={aboutImg} alt='' className="w-full absolute top-0 z-[-1]" />
 
-                            <div className="main-abt grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4  lg:grid-cols-5 gap-3 pt-20">
+                            <div className="main-abt grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 pt-20">
                                 {amenities.map((item, i) => (
                                     <div className="radial-box about-item w-full p-6 flex flex-col gap-4 justify-start items-center rounded-[3px] hover:bg-primary-yellow border-primary-yellow border-1 aminities-group cursor-pointer" key={i}>
                                         <img src={item.icon} alt={item.title} className="size-[54px] animate-wobble" />

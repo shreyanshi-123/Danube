@@ -13,7 +13,7 @@ const BannerSlider = () => {
   const { t, i18n } = useTranslation();
   const settings = {
     autoplay: true,
-    autoplaySpeed: 30000,
+    autoplaySpeed: 3000,
     dots: true,
     infinite: true,
     arrows: false,

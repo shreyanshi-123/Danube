@@ -1,4 +1,5 @@
 import './Header.css';
+import { useNavigate } from 'react-router-dom';
 // import logo from '../../../assests/images/damac-logo.svg';
 import DanubelogoBlack from '../../../assests/images/denube-header-logo.png';
 import DanubelogoWhite from '../../../assests/images/logofooter.png';
@@ -18,6 +19,7 @@ import LanguageSwitcher from '../languageSwitcher';
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
+  const navigate = useNavigate();
   const { t } = useTranslation();
   const location = useLocation();
   const pathname = location.pathname;
@@ -36,7 +38,9 @@ const Header = () => {
   const handleMenuClick = (e) => {
     e.preventDefault();
     const { id } = e.target.dataset;
+    console.log (document.getElementById(e.target.dataset));
     const element = document.getElementById(id);
+   
     if (element) {
       element.style.scrollMarginTop = '50px';
       element.scrollIntoView({ behavior: 'smooth' });
@@ -44,25 +48,34 @@ const Header = () => {
   };
 
   const DanubeMenuLinks = [
-    { name: t('navigation.about_us'), redirect: '/aboutUs', id: 'aboutUs' },
-    { name: t('navigation.latest_launch'), redirect: '/NewLaunches', id: 'NewLaunches' },
+    { name: t('navigation.about_us'), redirect: '/about-us', id: 'about-us' },
+    { name: t('navigation.latest_launch'), redirect: '/new-launches', id: 'new-launches' },
     { name: t('navigation.projects'), redirect: '/featured-project', id: 'featured-project' },
-    { name: t('navigation.danube_properties'), redirect: '/WhyDanube', id: 'WhyDanube' },
-    { name: t('navigation.invest_in_dubai'), redirect: '/whyDubai', id: 'whyDubai' },
-    { name: t('navigation.contact_us'), redirect: '/Contact-section', id: 'Contact-section' }
+    { name: t('navigation.danube_properties'), redirect: '/why-danube', id: 'why-danube' },
+    { name: t('navigation.invest_in_dubai'), redirect: '/why-dubai', id: 'why-dubai' },
+    { name: t('navigation.contact_us'), redirect: '/contact-us', id: 'contact-us' }
   ];
-
+  // const handleMenuClick = (e) => {
+  //   // e.preventDefault();
+    
+  //   const { id } = e.target.dataset;
+  //   console.log("Clicked Link ID:", id);  // Check the id value
+   
+  //   if (id) {
+  //     navigate('/', { replace: true });
+  //     const element = document.getElementById(id);
+  //     console.log("Target Element:", element);  // Check if the element exists
+  //     // element.scrollIntoView({ behavior: 'smooth' });
+  //     if (element) {
+  //       element.style.scrollMarginTop = '50px';
+  //       element.scrollIntoView({ behavior: 'smooth' });
+  //     }
+  //   }
+  // };
+  
   useEffect(() => {
-    // window.scrollTo(0,0);
-    // const listenScrollEvent = () => {
-    //   const newScrollClass = window.scrollY > 50 ? 'scrolled' : 'scroll';
-    //   setScrollClass(newScrollClass);
-    // };
-
-    // window.addEventListener('scroll', listenScrollEvent);
-
     const listenScrollEvent = () => {
-      if (locationValue[1] === "" || DanubeMenuLinks.some(item => item.id === locationValue[1])) {
+      if (locationValue[1] === "" ||  DanubeMenuLinks.some(item => item.id === locationValue[1])) {
         const newScrollClass = window.scrollY > 50 ? 'scrolled' : 'scroll';
         setScrollClass(newScrollClass);
       } else {
@@ -83,20 +96,22 @@ const Header = () => {
     }
     // console.log(location.pathname.split("/"))
 
-    if (DanubeMenuLinks.some(item => item.id === location.pathname.split("/")[1]) && location.pathname.split("/")[1] !== locationPath) {
+    if(DanubeMenuLinks.some(item => item.id === location.pathname.split("/")[1]) && location.pathname.split("/")[1] !== locationPath){
       const path = location.pathname.split("/")[1];
-      console.log(path);
       const element = document.getElementById(path);
 
       if (element) {
-        // setLocationPath(path)
+        setLocationPath(path)
         element.style.scrollMarginTop = '50px';
         element.scrollIntoView({ behavior: 'smooth' });
-
+        
       }
     }
-  }, [location, locationPath]);
 
+    // eslint-disable-next-line
+  }, [location, locationValue, locationPath]);
+  
+  
   // Check if the current page should have the "home-header" class
   const isDanubePage = pathname.includes('/');
   const isHomePage = locationValue[1] === '' || DanubeMenuLinks.some(item => item.id === locationValue[1]);
@@ -116,18 +131,29 @@ const Header = () => {
           <div className='flex'>
             <div  className='flex'>
               <nav className="danube-nav hidden lg:flex gap-3">
-                {DanubeMenuLinks.map((item, i) => (
-                  <Link smooth="true" to={item.redirect} key={i} className="danube-nav-link relative text-xs font-medium px-0 xl:px-1 leading-[1] flex items-center text-black uppercase animated-underline" >{t(item.name)}</Link>
-                  // <Link
-                  //   key={i}
+                {/* {DanubeMenuLinks.map((item, i) => ( */}
+                  {/* // <Link smooth="true" to={item.redirect} data-id={item.id} key={i} onClick={handleMenuClick} className="danube-nav-link relative text-xs font-medium px-0 xl:px-1 leading-[1] flex items-center text-black uppercase animated-underline" >{t(item.name)}</Link> */}
+                  {locationValue[1] === "" ?
+
+                    DanubeMenuLinks.map((item, i) => (
+                      <Link smooth="true" to={item.redirect} key={i} className="danube-nav-link relative text-xs font-medium px-0 xl:px-1 leading-[1] flex items-center text-black uppercase animated-underline" data-id={item.id} onClick={(e) => handleMenuClick(e)}>{item.name}</Link>
+                    ))
+                  :
+                  DanubeMenuLinks.map((item, i) => (
+                      <Link smooth="true" to={item.redirect} key={i} className="danube-nav-link relative text-xs font-medium px-0 xl:px-1 leading-[1] flex items-center text-black uppercase animated-underline" >{item.name}</Link>
+                    ))
+                    
+                  } 
+                  {/* // <Link */}
+                  {/* //   key={i}
                   //   to={item.redirect}
                   //   className="danube-nav-link relative text-xs font-medium px-0 xl:px-1 leading-[1] flex items-center text-black uppercase animated-underline"
                   //   onClick={handleMenuClick}
                   //   data-id={item.id}
                   // >
                   //   {t(item.name)}
-                  // </Link>
-                ))}
+                  // </Link> */}
+                {/* // ))} */}
 
               </nav>
               <LanguageSwitcher />

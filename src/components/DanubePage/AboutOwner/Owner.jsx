@@ -5,6 +5,7 @@ import aboutImg from '../../../assests/images/AboveGetintouch.jpg'
 import video from './../../../assests/images/video.png'
 import './owner.css'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClose } from '@fortawesome/free-solid-svg-icons';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -32,7 +33,7 @@ const AboutSection = () => {
                 <p className='text-sm lg:text-[18px] py-0 md:py-20 leading-[1.2]'>{t('about_rizwan_sajan.line_1')}</p>
                 <div className='flex gap-2 items-center'>
                   <div className="btn-item flex gap-2 flex-wrap">
-                    <button className='text-sm lg:text-[18px] bg-primary-darkgrey border-1 hover:bg-primary-yellow rounded-[3px] px-4 py-[6.5px] uppercase text-white' onClick={handleOpen}><img src={video} className='w-[30px]' alt="" /> {t('about_rizwan_sajan.watch_complete_story')}</button>
+               <Link  to="https://www.youtube.com/watch?v=R38fMhdrT1U&t=1s" target='_blank'>     <button className='text-sm lg:text-[18px] bg-primary-darkgrey border-1 hover:bg-primary-yellow rounded-[3px] px-4 py-[6.5px] uppercase text-white' ><img src={video} className='w-[30px]' alt="" /> {t('about_rizwan_sajan.watch_complete_story')}</button></Link>
 
 
                   </div>
@@ -46,7 +47,7 @@ const AboutSection = () => {
               </div>
             </div>
             <div className="overlayimage relative pt-20">
-              <LazyLoadImage src={aboutImg} alt='' className="w-full  z-0" />
+              <LazyLoadImage src={aboutImg} alt='' className="w-full min-h-[400px] object-cover z-0" />
 
             </div>
 

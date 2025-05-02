@@ -54,7 +54,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="home-whyDanube py-20 px-2.5" id='faq-section'>
+    <section className="home-whyDanube py-20 px-2.5" id='faq'>
       <div className='max-w-6xl m-auto'>
         <div className="faq-section">
           <h2 className="faq-title">{t('faq')}</h2>

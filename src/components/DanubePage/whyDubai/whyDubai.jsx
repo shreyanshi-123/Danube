@@ -80,7 +80,7 @@ const LatestLaunches = () => {
 
     return (
         <>
-            <section className="home-whyDubai pb-20 px-2.5" id='whyDubai'>
+            <section className="home-whyDubai pb-20 px-2.5" id='why-dubai'>
                 <div className='max-w-6xl m-auto'>
                     <div className="flex flex-col text-left gap-0 uppercase">
                         <div className="flex flex-col md:flex-row sm:justify-between gap-4">
